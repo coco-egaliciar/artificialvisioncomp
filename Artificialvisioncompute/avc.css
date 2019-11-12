@@ -531,7 +531,7 @@ p strong {
 }
 
 @media (max-width: 768px) {
-	.artificialvision-hide-non-mobile {
+	.artificialvision-hide-non-mobiles {
 		display: none;
 	}
 
@@ -543,5 +543,6 @@ p strong {
 @media (max-width: 1500px) {
 	.artificialvision-hide-mobile__ {
 		left: 0%;
+		font-size: 1.35rem;
 	}
 }
