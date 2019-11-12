@@ -1,0 +1,67 @@
+body {
+  position: relative;
+  background-color: #f8fafb;
+  overflow-y: auto !important;
+  padding-right: 0 !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Questrial', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #2c3439;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #03a9f4;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+a:hover,
+a:focus {
+  color: #03a9f4;
+  text-decoration: underline;
+}
+
+#contactModal .modal-dialog {
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 828px) {
+  .main-raised {
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 768px), screen and (max-height: 800px) {
+  #contactModal .modal-dialog {
+    width: 100%;
+  }
+  #contactModal .typeform-widget {
+    width: 100% !important;
+    height: 600px !important;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  #contactModal .typeform-widget {
+    height: 100% !important;
+  }
+  #contactModal .modal-dialog {
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #contactModal .modal-content {
+    height: 100%;
+    padding: -20px;
+  }
+}
